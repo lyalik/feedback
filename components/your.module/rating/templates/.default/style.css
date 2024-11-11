@@ -1,0 +1,15 @@
+/* style.css */
+.rating-stars {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.rating-stars .star {
+    font-size: 2em;
+    color: #ccc;
+}
+
+.rating-stars .star:hover,
+.rating-stars .star:hover ~ .star {
+    color: #f39c12;
+}
